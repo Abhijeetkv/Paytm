@@ -1,10 +1,5 @@
 import mongoose from "mongoose";
 
-mongoose.connect("mongodb://localhost:27017/paytm", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-});
-
 // User Schema
 const userSchema = new mongoose.Schema({
   username: {

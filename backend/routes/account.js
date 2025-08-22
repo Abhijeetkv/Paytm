@@ -1,5 +1,5 @@
 import express from 'express';
-import { Account } from '../db.js';
+import { Account } from '../model/user.model.js';
 import { authMiddleware } from '../middleware.js';
 import mongoose from 'mongoose';
 

@@ -1,6 +1,6 @@
 import { Router } from "express";
 import zod from "zod";
-import { User } from "../db.js";
+import { User } from "../model/user.model.js";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import config from "../config.js";
